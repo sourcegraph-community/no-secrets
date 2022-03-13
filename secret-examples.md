@@ -5,8 +5,7 @@ All of the following secrets are real examples that no longer work.
 ## API Keys
 
 Mailgun: `key-06b34653fd57060f62e4475460ccf053`
-
-Mailchimp: `890a7078b0gdf78300d3re3c6f73538d-us16`
+Mailchimp: `e3a648d99c398572dec8a7650c92d1c0-us16`
 
 Twitter: `2MkkUwIfcUu54P3qHvy3bwrVL`
 

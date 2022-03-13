@@ -85,7 +85,7 @@ AIza[0-9A-Za-z\\-_]{35} or
 // Heroku API Key
 [hH][eE][rR][oO][kK][uU].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12} or
 
-// MailChimp API Key
+// Mailchimp API Key
 [0-9a-f]{32}-us[0-9]{1,2} or
 
 // Mailgun API Key
