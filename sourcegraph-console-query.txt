@@ -1,0 +1,128 @@
+// Replace org and repo
+repo:github.com/org/repo$
+
+// Filter out any files you don't want, perhaps test files?
+-file:test
+
+patterntype:regex
+
+// Use this list of known patterns (from truffleHog) and add your own!
+// Slack Token
+(xox[pborsa]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32}) or
+
+// RSA private key
+-----BEGIN RSA PRIVATE KEY----- or
+
+// SSH (DSA) private key
+-----BEGIN DSA PRIVATE KEY----- or
+
+// SSH (EC) private key
+-----BEGIN EC PRIVATE KEY----- or
+
+// PGP private key block
+-----BEGIN PGP PRIVATE KEY BLOCK----- or
+
+// AWS API Key
+((?:A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}) or
+
+// Amazon MWS Auth Token
+amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12} or
+
+// AWS API Key
+AKIA[0-9A-Z]{16} or
+
+// AWS AppSync GraphQL Key
+da2-[a-z0-9]{26} or
+
+// Facebook Access Token
+EAACEdEose0cBA[0-9A-Za-z]+ or
+
+// Facebook OAuth
+[fF][aA][cC][eE][bB][oO][oO][kK].*['|\"][0-9a-f]{32}['|\"] or
+
+// GitHub
+[gG][iI][tT][hH][uU][bB].*['|\"][0-9a-zA-Z]{35,40}['|\"] or
+
+// Generic API Key
+[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"] or
+
+// Generic Secret
+[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"] or
+
+// Google API Key
+AIza[0-9A-Za-z\\-_]{35} or
+
+// Google Cloud Platform API Key
+AIza[0-9A-Za-z\\-_]{35} or
+
+// Google Cloud Platform OAuth
+[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com or
+
+// Google Drive API Key
+AIza[0-9A-Za-z\\-_]{35} or
+
+// Google Drive OAuth
+[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com or
+
+// Google (GCP) Service-account
+\"type\": \"service_account\" or
+
+// Google Gmail API Key
+AIza[0-9A-Za-z\\-_]{35} or
+
+// Google Gmail OAuth
+[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com or
+
+// Google OAuth Access Token
+ya29\\.[0-9A-Za-z\\-_]+ or
+
+// Google YouTube API Key
+AIza[0-9A-Za-z\\-_]{35} or
+
+// Google YouTube OAuth
+[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com or
+
+// Heroku API Key
+[hH][eE][rR][oO][kK][uU].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12} or
+
+// MailChimp API Key
+[0-9a-f]{32}-us[0-9]{1,2} or
+
+// Mailgun API Key
+key-[0-9a-zA-Z]{32} or
+
+// Password in URL
+[a-zA-Z]{3,10}:// [^/\\s:@]{3,20}:[^/\\s:@]{3,20}@.{1,100}[\"'\\s] or
+
+// PayPal Braintree Access Token
+access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32} or
+
+// Picatic API Key
+sk_live_[0-9a-z]{32} or
+
+// Slack Webhook
+https:// hooks\\.slack\\.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24} or
+
+// Stripe API Key
+sk_live_[0-9a-zA-Z]{24} or
+
+// Stripe Restricted API Key
+rk_live_[0-9a-zA-Z]{24} or
+
+// Square Access Token
+sq0atp-[0-9A-Za-z\\-_]{22} or
+
+// Square OAuth Secret
+sq0csp-[0-9A-Za-z\\-_]{43} or
+
+// Telegram Bot API Key
+[0-9]+:AA[0-9A-Za-z\\-_]{33} or
+
+// Twilio API Key
+SK[0-9a-fA-F]{32} or
+
+// Twitter Access Token
+[tT][wW][iI][tT][tT][eE][rR].*[1-9][0-9]+-[0-9a-zA-Z]{40} or
+
+// Twitter OAuth
+[tT][wW][iI][tT][tT][eE][rR].*['|\"][0-9a-zA-Z]{35,44}['|\"]"
