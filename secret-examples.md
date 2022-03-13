@@ -2,9 +2,14 @@
 
 All of the following secrets are real examples that no longer work.
 
-## Mailgun API Key
+## API Keys
 
-`key-06b34653fd57060f62e4475460ccf053`
+Mailgun: `key-06b34653fd57060f62e4475460ccf053`
+Mailchimp: `890a7078b0gdf78300d3re3c6f73538d-us16`
+Twitter: `2MkkUwIfcUu54P3qHvy3bwrVL`
+Twitter Secret: `Y2Qgm1Uuyxi1JhNU2EQTWopQbFEbtq9Da4Z5QW7sjWzNgPXUZz`
+Twitter Bearer Token: `AAAAAAAAAAAAAAAAAAAAAAzFFFAAAAAAtA1tI2Lx4kvH7N1kWsfIcNFU2v8%3D895Il1bJ8fCWOLjpswwczyruDRGKYx3TuKBvqxsW8HL8duWRGy`
+GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSn`
 
 ## RSA Private Key
 
