@@ -1,19 +1,26 @@
 # Secret Examples
 
-All of the following secrets are real examples that no longer work.
+All of the following secrets are real examples that no longer work. The regex syntax is below each one.
 
 ## API Keys
 
-Mailgun: `key-06b34653fd57060f62e4475460ccf053`
+Mailgun: `key-06b34653fd57060f62e4475450ccf053`
+> key-[0-9a-zA-Z]{32}
+
 Mailchimp: `e3a648d99c398572dec8a7650c92d1c0-us16`
+> [0-9a-f]{32}-us[0-9]{1,2}
 
-Twitter: `2MkkUwIfcUu54P3qHvy3bwrVL`
+Twitter Key: `UDYE17NI3sbgPTaymkYdCEd76`
+> [0-9a-zA-Z]{25}
 
-Twitter Secret: `Y2Qgm1Uuyxi1JhNU2EQTWopQbFEbtq9Da4Z5QW7sjWzNgPXUZz`
+Twitter Secret: `JzXPbtuH2I26L5ilEziVM18Ecd1EW0t2AIjaJIhtm7jpB4W5R5`
+> [0-9a-zA-Z]{50}
 
-Twitter Bearer Token: `AAAAAAAAAAAAAAAAAAAAAAzFFFAAAAAAtA1tI2Lx4kvH7N1kWsfIcNFU2v8%3D895Il1bJ8fCWOLjpswwczyruDRGKYx3TuKBvqxsW8HL8duWRGy`
+Twitter Bearer Token: `AAAAAAAAAAAAAAAAAAAAAAzFFFAAAAAAtA1tI2Lx4kvH7N1kWsfIcNFU2v8%3D895Il1bJ8fCWOLjpswwczyruDRGKDx3TuKBvqxsW8HL8duWRGy`
+> A+[0-9a-zA-Z].{90}
 
-GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSn`
+GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSe`
+> ghp_[0-9a-z]{36}
 
 ## RSA Private Key
 
