@@ -31,6 +31,9 @@ AWS API Key: `AKIA01JDFHs8CDS82D`
 Google Cloud Platform API Key: `AIza1Rt9Ac43c789AVcRgyJawTd4\_1sdfdmR9a`
 > AIza[0-9A-Za-z\\-_]{35}
 
+Stripe API Key: `rk_live_WXMzpZg9ueNeYNsKhDmQW6Yj`
+> rk_live_[0-9a-zA-Z]{24}
+
 ## RSA Private Key
 
 ```shell
