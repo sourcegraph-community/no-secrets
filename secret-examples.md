@@ -17,7 +17,7 @@ Twitter Secret: `JzXPbtuH2I26L5ilEziVM18Ecd1EW0t2AIjaJIhtm7jpB4W5R5`
 > [0-9a-zA-Z]{50}
 
 Twitter Bearer Token: `AAAAAAAAAAAAAAAAAAAAAAzFFFAAAAAAtA1tI2Lx4kvH7N1kWsfIcNFU2v8%3D895Il1bJ8fCWOLjpswwczyruDRGKDx3TuKBvqxsW8HL8duWRGy`
-> A+[0-9a-zA-Z].{90}
+> A{22}[0-9a-zA-Z].{89}
 
 GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSe`
 > ghp_[0-9a-z]{36}
