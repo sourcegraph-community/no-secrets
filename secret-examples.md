@@ -23,8 +23,10 @@ GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSe`
 > ghp_[0-9a-z]{36}
 
 Twilio API Key: `SK0189365278abEcF1827FFabEc187FAaC`
-
 > SK[0-9a-fA-F]{32}
+
+AWS API Key: AKIA01JDFHs8CDS82D
+> AKIA[0-9A-Z]{16}
 
 ## RSA Private Key
 
