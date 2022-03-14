@@ -22,6 +22,10 @@ Twitter Bearer Token: `AAAAAAAAAAAAAAAAAAAAAAzFFFAAAAAAtA1tI2Lx4kvH7N1kWsfIcNFU2
 GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSe`
 > ghp_[0-9a-z]{36}
 
+Twilio API Key: `SK0189365278abEcF1827FFabEc187FAaC`
+
+> SK[0-9a-fA-F]{32}
+
 ## RSA Private Key
 
 ```shell
