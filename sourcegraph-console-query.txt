@@ -125,4 +125,4 @@ SK[0-9a-fA-F]{32} or
 [0-9a-zA-Z]{50}
 
 // Twitter Bearer Token
-A+[0-9a-zA-Z].{90}
+A{22}[0-9a-zA-Z].{89}
