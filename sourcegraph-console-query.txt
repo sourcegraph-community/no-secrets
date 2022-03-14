@@ -1,8 +1,8 @@
 // Replace org and repo
 repo:github.com/org/repo$
 
-// Filter out any files you don't want, perhaps test files?
--file:test
+// Filter out any files you don't want
+-file:(index.html|sourcegraph-console-query.txt|README.md|bookmarklet.js)
 
 patterntype:regex
 
