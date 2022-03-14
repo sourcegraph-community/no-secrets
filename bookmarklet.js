@@ -1,4 +1,5 @@
 // version 0.0.2
+// Generate bookmarklet: https://caiorss.github.io/bookmarklet-maker/
 
 var newURL = window.location.host + window.location.pathname
 
