@@ -19,13 +19,13 @@ Twitter Secret: `JzXPbtuH2I26L5ilEziVM18Ecd1EW0t2AIjaJIhtm7jpB4W5R5`
 Twitter Bearer Token: `AAAAAAAAAAAAAAAAAAAAAAzFFFAAAAAAtA1tI2Lx4kvH7N1kWsfIcNFU2v8%3D895Il1bJ8fCWOLjpswwczyruDRGKDx3TuKBvqxsW8HL8duWRGy`
 > A{22}[0-9a-zA-Z].{89}
 
-GitHub Token: `ghp_Q6Yv2mQRGeWSuUVZCvQldsI4dETvof4R5bSe`
+GitHub Token: `ghp_q6yv2mqrgewsuuvzcvqldsi4detvof4r5bse`
 > ghp_[0-9a-z]{36}
 
 Twilio API Key: `SK0189365278abEcF1827FFabEc187FAaC`
 > SK[0-9a-fA-F]{32}
 
-AWS API Key: `AKIA01JDFHs8CDS82D`
+AWS API Key: `AKIA01JDFHS8CDS82AAA`
 > AKIA[0-9A-Z]{16}
 
 Google Cloud Platform API Key: `AIza1Rt9Ac43c789AVcRgyJawTd4\_1sdfdmR9a`
