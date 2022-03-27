@@ -34,7 +34,7 @@ Google Cloud Platform API Key: `AIza1Rt9Ac43c789AVcRgyJawTd4\_1sdfdmR9a`
 Stripe API Key: `rk_live_WXMzpZg9ueNeYNsKhDmQW6Yj`
 > rk_live_[0-9a-zA-Z]{24}
 
-## RSA Private Key
+## Private Keys
 
 ```shell
 -----BEGIN RSA PRIVATE KEY-----
@@ -91,4 +91,17 @@ o4CTXXHINzkOpSIurp2McHVxRw/hAeZURA5bq9x3U4aBL0RB0dzAUfj3idAytJKH
 Sg4F4ugmHmi7RyV7p/WTtz9I4waGwzzjLWUNiTlc1pHY7jBU31UTVzMcn1Dhcx8U
 fxqDa3rqeGhvyAFIHjnFQrxg+O8IwFc5Of7v9O/zizSuADKTZd6gy0NLydIwx/I4
 -----END RSA PRIVATE KEY-----
+```
+
+```shell
+-----BEGIN DSA PRIVATE KEY-----
+```
+
+```shell
+-----BEGIN EC PRIVATE KEY-----
+```
+
+```shell
+// PGP private key block
+-----BEGIN PGP PRIVATE KEY BLOCK-----
 ```
