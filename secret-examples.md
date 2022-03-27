@@ -28,6 +28,9 @@ Twilio API Key: `SK0189365278abEcF1827FFabEc187FAaC`
 AWS API Key: `AKIA01JDFHS8CDS82AAA`
 > AKIA[0-9A-Z]{16}
 
+AWS AppSync GraphQL Key: `da2-auzbch18ch4dks9cnvb38sloc8`
+> da2-[a-z0-9]{26}
+
 Google Cloud Platform API Key: `AIza1Rt9Ac43c789AVcRgyJawTd4\_1sdfdmR9a`
 > AIza[0-9A-Za-z\\-_]{35}
 
