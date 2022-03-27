@@ -37,6 +37,9 @@ Google Cloud Platform API Key: `AIza1Rt9Ac43c789AVcRgyJawTd4\_1sdfdmR9a`
 Stripe API Key: `rk_live_WXMzpZg9ueNeYNsKhDmQW6Yj`
 > rk_live_[0-9a-zA-Z]{24}
 
+Facebook Access Token: `EAACEdEose0cBA09aaDc8DcU76bVx894Ddq`
+> EAACEdEose0cBA[0-9A-Za-z]+
+
 ## Private Keys
 
 ```shell
