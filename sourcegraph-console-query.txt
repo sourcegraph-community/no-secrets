@@ -134,3 +134,6 @@ SK[0-9a-fA-F]{32} or
 
 // Twitter Bearer Token
 A{22}[0-9a-zA-Z].{89}
+
+// GitHub Token
+> ghp_[0-9a-z]{36}
