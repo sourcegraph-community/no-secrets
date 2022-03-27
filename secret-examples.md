@@ -40,6 +40,9 @@ Stripe API Key: `rk_live_WXMzpZg9ueNeYNsKhDmQW6Yj`
 Facebook Access Token: `EAACEdEose0cBA09aaDc8DcU76bVx894Ddq`
 > EAACEdEose0cBA[0-9A-Za-z]+
 
+YouTube API Key: AIza1Rt9Ac43c789AVcRgyJawTd4\_1sdfdmR8a
+> AIza[0-9A-Za-z\\-_]{35}
+
 ## Private Keys
 
 ```shell
