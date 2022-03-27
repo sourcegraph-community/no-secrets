@@ -33,3 +33,17 @@ Find potentially sensitive files pushed to public repositories on GitHub. Search
 🟡 Square
 
 🟡 Twitter
+
+## Development (WIP)
+
+ ```shell
+$ npm install --global http-server
+$ http-server
+$ http://127.0.0.1:8080
+```
+
+### Services
+
+* [Bootstrap 5 via jsDelivr](https://www.bootstrapcdn.com/)
+* [Bookmarklet Maker](https://caiorss.github.io/bookmarklet-maker)
+* [Sourcegraph Console](https://sourcegraph.com/search/console)
