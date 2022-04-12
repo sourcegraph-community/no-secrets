@@ -1,6 +1,6 @@
 # 🤫 No Secrets!
 
-Find secrets in your repos before others do. [Try it](https://sourcegraph-community.github.io/secrets-bookmarklet-demo/).
+Find secrets in your repos before others do. [Try it](https://sourcegraph-community.github.io/no-secrets).
 
 ## Peace of Mind
 
