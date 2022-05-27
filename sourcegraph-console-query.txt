@@ -1,3 +1,7 @@
+// No Secrets! uses the following files from other authors:
+// github.com/dxa4481/truffleHogRegexes/regexes.json
+// Copyright 2018 Dylan Ayrey, GNU General Public License v3.0
+
 // Filter out any files you don't want
 -file:(index.html|sourcegraph-console-query.txt|README.md|bookmarklet.js)
 
