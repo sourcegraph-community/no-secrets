@@ -1,3 +1,5 @@
 patterntype:regexp 
 
 f:Cargo.lock openssl-src AND version\s*=\s*"300\.[0-9\.]+\+3\.0\.[0-6]
+
+fork:yes
