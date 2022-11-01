@@ -36,14 +36,14 @@
 
         <header class="d-flex align-items-center pb-3 mb-5 border-bottom">&nbsp;</header>
         <main>
-            <h1>Find secrets in your GitHub repo</h1>
+            <h1>Find <abbr title="CVE-2022-3786 and CVE-2022-3602: X.509 Email Address Buffer Overflows">vulnerable versions</abbr> of OpenSSL in your GitHub repo</h1>
             <p class="lead">Drag the button ⤵️ to your Bookmarks Bar and then <a href="https://github.com/sourcegraph-community/openssl-checker" target="_blank" rel="noopener noreferrer">try it out</a>.</p>
       
           <div class="mb-5">
-            <a class="btn btn-primary btn-lg active" href="javascript:(function()%7Bvar%20newURL%20%3D%20window.location.host%20%2B%20window.location.pathname%0A%0Awindow.location.href%20%3D%20'https%3A%2F%2Fsourcegraph.com%2Fsearch%2Fconsole'%20%2B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'%3Fq%3Drepo%253A'%20%2B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20newURL%20%2B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'%2524%2520%250A%250Apatterntype%253Aregexp%2520%250A%250Af%253ACargo.lock%2520openssl-src%2520AND%2520version%255Cs*%253D%255Cs*%2522300%255C.%255B0-9%255C.%255D%252B%255C%252B3%255C.0%255C.%255B0-6%255D'%7D)()%3B" role="button">OpenSSL Checker</a>
+            <a class="btn btn-primary btn-lg active" href="javascript:(function()%7Bvar%20newURL%20%3D%20window.location.host%20%2B%20window.location.pathname%0A%0Awindow.location.href%20%3D%20'https%3A%2F%2Fsourcegraph.com%2Fsearch%2Fconsole'%20%2B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'%3Fq%3Drepo%253A'%20%2B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20newURL%20%2B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'%2524%2520%250A%250Apatterntype%253Aregexp%2520%250A%250Af%253ACargo.lock%2520openssl-src%2520AND%2520version%255Cs*%253D%255Cs*%2522300%255C.%255B0-9%255C.%255D%252B%255C%252B3%255C.0%255C.%255B0-6%255D%250A%250Afork%253Ayes%2520'%3B%7D)()%3B" role="button">OpenSSL Checker</a>
           </div>
           <div class="mb-5">
-              <a href="https://sourcegraph.com/search/console?q=repo%3Agithub.com/sourcegraph-community/..." target="_blank">Try without Bookmarklet</a>
+              <a href="https://sourcegraph.com/search/console?q=repo%3Agithub.com/sourcegraph-community/openssl-checker%24%20%0A%0Apatterntype%3Aregexp%20%0A%0Af%3ACargo.lock%20openssl-src%20AND%20version%5Cs*%3D%5Cs*%22300%5C.%5B0-9%5C.%5D%2B%5C%2B3%5C.0%5C.%5B0-6%5D%0A%0Afork%3Ayes%20" target="_blank">Try without Bookmarklet</a>
           </div>
       
          
