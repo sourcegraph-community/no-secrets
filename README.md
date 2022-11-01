@@ -1,6 +1,42 @@
-# OpenSSL Checker
+# 🤫 No Secrets!
 
-Find OpenSSL vulnerabilities in your GitHub Repos
+Find secrets in your repos before others do. [Try it](https://sourcegraph-community.github.io/no-secrets).
+
+## Peace of Mind
+
+Find potentially sensitive files pushed to public repositories on GitHub. Searches for the following secrets:
+
+✅ AWS
+
+✅ Google Cloud (GCP)
+
+✅ Mailchimp
+
+✅ Mailgun
+
+✅ RSA, DSA, EC, PGP Private Keys
+
+✅ Stripe
+
+✅ Twilio
+
+✅ GitHub
+
+✅ Facebook
+
+✅ Twitter
+
+✅ YouTube
+
+### Coming Soon
+
+🟡 Braintree
+
+🟡 Heroku
+
+🟡 Square
+
+## Development (WIP)
 
 ### Web
 
